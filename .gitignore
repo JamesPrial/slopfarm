@@ -60,3 +60,21 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+# Python Bluetooth Research Runtime Files
+*.json
+!package.json
+!tsconfig.json
+audio_test_*.log
+*_scan*.json
+ble_scan_*.json
+bt_scan_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
